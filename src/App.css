@@ -41,34 +41,6 @@ a {
   font-size: 20px;
 }
 
-.sub-header {
-  display: flex;
-  justify-content: center;
-}
-
-.search-box {
-  height: 6vh;
-  width: 94%;
-  padding: 0 15px;
-  margin: 5px 30px;
-
-  background-color: transparent;
-  border: none;
-  outline: none;
-
-  font-size: 20px;
-  border-bottom: 3px solid #8aa9c0b6;
-}
-
-.card-list {
-  width: 80vw;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
-  padding: 30px 0;
-}
-
 .card-container {
   display: flex;
   flex-direction: column;
@@ -91,19 +63,4 @@ a {
 
 .card-container:hover {
   transform: scale(1.05);
-}
-
-.card-container h3 {
-  padding-bottom: 8px;
-  font-weight: bolder;
-}
-
-.card-container h5 {
-  padding-bottom: 8px;
-  font-weight: normal;
-}
-
-.card-container p {
-  font-weight: bold;
-  color: rgba(66, 63, 63, 0.87);
 }

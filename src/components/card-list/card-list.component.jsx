@@ -1,5 +1,7 @@
 import { Component } from "react";
 
+import Card from "../card/card.component";
+import "./card-list.styles.css";
 class CardList extends Component {
   render() {
     const { articles } = this.props;
@@ -7,18 +9,7 @@ class CardList extends Component {
     return (
       <div className="card-list">
         {articles.map((article) => {
-          return (
-            <a
-              href={article.url}
-              className="card-container"
-              key={article.slug_name}
-            >
-              <img alt="thumbnail" src={`${article.thumbnail_standard}`} />
-              <h3>{article.title}</h3>
-              <h5>{article.abstract}</h5>
-              <p>{article.byline}</p>
-            </a>
-          );
+          return <Card article={article} />;
         })}
       </div>
     );

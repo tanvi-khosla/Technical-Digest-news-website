@@ -3,7 +3,6 @@ import "./App.css";
 
 import CardList from "./components/card-list/card-list.component";
 import SearchBox from "./components/search-box/search-box.component";
-import Header from "./components/header/header.component";
 
 class App extends Component {
   constructor() {
@@ -48,7 +47,13 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Header />
+        <div className={`header`}>
+          <div className={`title`}>Technical Digest</div>
+          <div className={`sub-title`}>
+            An up-to-the-minute stream of tech related articles published by the
+            NYT
+          </div>
+        </div>
         <SearchBox
           className="search-box"
           onChangeHandler={onSearchChange}

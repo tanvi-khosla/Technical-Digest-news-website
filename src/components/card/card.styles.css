@@ -1,0 +1,14 @@
+.card-container h3 {
+  padding-bottom: 8px;
+  font-weight: bolder;
+}
+
+.card-container h5 {
+  padding-bottom: 8px;
+  font-weight: normal;
+}
+
+.card-container p {
+  font-weight: bold;
+  color: rgba(66, 63, 63, 0.87);
+}

@@ -1,0 +1,18 @@
+.sub-header {
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  height: 6vh;
+  width: 94%;
+  padding: 0 15px;
+  margin: 5px 30px;
+
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  font-size: 20px;
+  border-bottom: 3px solid #8aa9c0b6;
+}
