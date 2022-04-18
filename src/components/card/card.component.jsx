@@ -10,9 +10,11 @@ class Card extends Component {
     return (
       <a href={url} className="card-container" key={slug_name}>
         <img alt="thumbnail" src={`${thumbnail_standard}`} />
-        <h3>{title}</h3>
-        <h5>{abstract}</h5>
-        <p>{byline}</p>
+        <div className="content-container">
+          <h3>{title}</h3>
+          <h5>{abstract}</h5>
+          <p>{byline}</p>
+        </div>
       </a>
     );
   }
